@@ -1,6 +1,6 @@
 cask "font-hurmit-nerd-font" do
-  version "3.0.0"
-  sha256 "e9281038b320978c99cbc75296586fe8580af4dc9bf79314fd49f72f5e8642b7"
+  version "2.3.3"
+  sha256 "68ea4e4bfc56843b18c6e9eb65f213e842a58ba0e62936cc3faba9b2928a88b3"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/Hermit.zip"
   name "Hurmit Nerd Font (Hermit)"
@@ -12,22 +12,8 @@ cask "font-hurmit-nerd-font" do
     strategy :github_latest
   end
 
-  font "HurmitNerdFont-Bold.otf"
-  font "HurmitNerdFont-BoldItalic.otf"
-  font "HurmitNerdFont-Italic.otf"
-  font "HurmitNerdFont-Light.otf"
-  font "HurmitNerdFont-LightItalic.otf"
-  font "HurmitNerdFont-Regular.otf"
-  font "HurmitNerdFontMono-Bold.otf"
-  font "HurmitNerdFontMono-BoldItalic.otf"
-  font "HurmitNerdFontMono-Italic.otf"
-  font "HurmitNerdFontMono-Light.otf"
-  font "HurmitNerdFontMono-LightItalic.otf"
-  font "HurmitNerdFontMono-Regular.otf"
-  font "HurmitNerdFontPropo-Bold.otf"
-  font "HurmitNerdFontPropo-BoldItalic.otf"
-  font "HurmitNerdFontPropo-Italic.otf"
-  font "HurmitNerdFontPropo-Light.otf"
-  font "HurmitNerdFontPropo-LightItalic.otf"
-  font "HurmitNerdFontPropo-Regular.otf"
+  font "Hurmit Bold Nerd Font Complete.otf"
+  font "Hurmit Light Nerd Font Complete.otf"
+  font "Hurmit Medium Nerd Font Complete Mono.otf"
+  font "Hurmit Medium Nerd Font Complete.otf"
 end

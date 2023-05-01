@@ -1,9 +1,9 @@
 cask "font-proggy-clean-tt-nerd-font" do
-  version "3.0.0"
-  sha256 "80fc32c6ac35191efb7e9a8ab26a260538c620296671bc1046caf1c9d630621e"
+  version "2.3.3"
+  sha256 "62afb1b8a9b49c11ccf53fc9bdbfa9672165539944993c4534ea8139f03c9560"
 
   url "https://github.com/ryanoasis/nerd-fonts/releases/download/v#{version}/ProggyClean.zip"
-  name "ProggyClean Nerd Font families (ProggyCleanTT)"
+  name "ProggyCleanTT Nerd Font families (ProggyCleanTT)"
   desc "Developer targeted fonts with a high number of glyphs"
   homepage "https://github.com/ryanoasis/nerd-fonts"
 
@@ -12,13 +12,10 @@ cask "font-proggy-clean-tt-nerd-font" do
     strategy :github_latest
   end
 
-  font "ProggyCleanCENerdFont-Regular.ttf"
-  font "ProggyCleanCENerdFontMono-Regular.ttf"
-  font "ProggyCleanCENerdFontPropo-Regular.ttf"
-  font "ProggyCleanNerdFont-Regular.ttf"
-  font "ProggyCleanNerdFontMono-Regular.ttf"
-  font "ProggyCleanNerdFontPropo-Regular.ttf"
-  font "ProggyCleanSZNerdFont-Regular.ttf"
-  font "ProggyCleanSZNerdFontMono-Regular.ttf"
-  font "ProggyCleanSZNerdFontPropo-Regular.ttf"
+  font "ProggyCleanTT CE Nerd Font Complete Mono.ttf"
+  font "ProggyCleanTT CE Nerd Font Complete.ttf"
+  font "ProggyCleanTT Nerd Font Complete Mono.ttf"
+  font "ProggyCleanTT Nerd Font Complete.ttf"
+  font "ProggyCleanTTSZ Nerd Font Complete Mono.ttf"
+  font "ProggyCleanTTSZ Nerd Font Complete.ttf"
 end
